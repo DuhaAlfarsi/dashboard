@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Comfortaa:wght@300&family=Dancing+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: white;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+  color: #bbb;
+  margin-right: -271px;
+}
+
+.statices {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 3.5rem;
+  margin: 5rem;
+}
+
+.info {
+  height: 115px;
+  width: 305px;
+  font-size: 20px;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 4px 8px 30px -5px rgb(0 0 0 / 13%);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 55px 1fr;
+  gap: 1.5rem;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.info i {
+  background: rgba(226, 217, 217, 0.5);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  color: rgb(110, 201, 186);
+  font-size: 25px;
+  padding: 11px;
+}
+
+.notifications {
+  height: 454px;
+  width: 1397px;
+  font-size: 20px;
+  padding: 1.5rem;
+  background: #fff;
+  box-shadow: 4px 8px 30px -5px rgb(0 0 0 / 13%);
+  border: none;
+  outline: none;
+  margin: 76px;
+}
+
+.detailes {
+  display: grid;
+  grid-template-columns: 70px 1fr 1fr;
+  gap: 2.5rem;
+  padding: 10px;
+  margin: 13px;
+}
+
+h2 {
+  padding: 20px;
+}
+
+.detailes img {
+  width: 100%;
+  border-radius: 50%;
+}
+.detailes p {
+  color: grey;
+}
+
+.detailes .par2 {
+  color: black;
+  font-weight: bold;
+}
+
+.detailes span {
+  display: flex;
+  color: black;
+  text-align: right;
+  font-weight: 400;
+  margin-right: -1539px;
+  margin-top: -25px;
+  align-content: center;
+  justify-content: center;
+  align-items: end;
+  justify-items: end;
+}
+
+.detailes .time {
+  text-align: right;
+  margin-right: -1664px;
+}
