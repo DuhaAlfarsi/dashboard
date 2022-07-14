@@ -96,13 +96,20 @@ h2 {
 }
 
 @media only screen and (max-width: 992px) {
-  .quotes {
+  .statices {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .detailes {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .quotes {
+  .statices {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .detailes {
     grid-template-columns: repeat(1, 1fr);
   }
 }
