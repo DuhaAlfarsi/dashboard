@@ -56,12 +56,13 @@ h1 {
 
 .notifications {
   font-size: 20px;
-  padding: 1.5rem;
   background: #fff;
   box-shadow: 4px 8px 30px -5px rgb(0 0 0 / 13%);
-  border: none;
-  outline: none;
   margin: 76px;
+}
+
+.notifications h2 {
+  width: 100%;
 }
 
 .detailes {
